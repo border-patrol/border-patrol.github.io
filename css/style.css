@@ -1,0 +1,36 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  bottom: 0;
+
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 25px;
+
+}
+
+article {
+    background-color: #ffffff;
+}
+
+/* ------------------------------------------------------------ [ Container ] */
+
+
+.container > img.center {
+    padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ------------------------------------------------------------------ [ EOF ] */

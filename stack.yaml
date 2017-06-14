@@ -1,0 +1,5 @@
+resolver: lts-8.04
+flags: {}
+packages:
+- '.'
+extra-deps: []
