@@ -29,8 +29,8 @@ serve: build
 deploy: build
 	rm -rf _site/.git
 	(cd _site; git init && git add .)
-	(cd _site; git config user.email "")
-	(cd _site; git config user.name None)
+#	(cd _site; git config user.email "")
+#	(cd _site; git config user.name None)
 	(cd _site; git commit -m "Site Generated on `date`")
 	(cd _site; git remote add origin ${REPO})
 	(cd _site; git push -f origin master)
