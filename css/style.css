@@ -19,12 +19,22 @@ html {
 
 }
 
+.footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 article {
     background-color: #ffffff;
 }
 
 /* ------------------------------------------------------------ [ Container ] */
 
+.vcenter {
+    display: flex;
+    align-items: centerl
+    float: none;
+}
 
 .container > img.center {
     padding: 10px;
