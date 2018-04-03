@@ -24,7 +24,7 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "CNAME" $ do
+    match "media/*" $ do
         route idRoute
         compile copyFileCompiler
 
