@@ -4,6 +4,7 @@ title: Publications
 
 ## 2018
 
++ @icip2018
 + @Stewart:2018:RPI:3178391.3180481
 
 ## 2017
