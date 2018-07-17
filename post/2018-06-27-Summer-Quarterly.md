@@ -1,5 +1,5 @@
 ---
-title: Summer Quaterly Meeting
+title: Summer Quarterly Meeting
 tags: news,website,heriot-watt,imperial,glasgow
 ...
 

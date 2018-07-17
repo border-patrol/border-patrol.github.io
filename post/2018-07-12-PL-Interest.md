@@ -1,6 +1,6 @@
 ---
 title:  Type-Systems for Describing System-on-a-Chip Architectures.
-tags: tags: idris,soc,hardware,linear-types,dependent-types,border-patrol,tdd,pl-interest,glasgow,talks
+tags: idris,soc,hardware,linear-types,dependent-types,border-patrol,tdd,pl-interest,glasgow,talks
 ...
 
 Jan gave about his work on the [Border
