@@ -26,8 +26,8 @@ Always work in the ~source~ branch.
 
 #+BEGIN_SRC sh
 $ stack build
-$ .stack-work/install/<path>/bin/site build
-$ .stack-work/install/<path>/bin/site watch
+$ stack exec site build
+$ stack exec site watch
 #+END_SRC
 
 Point your web browser to http://127.0.0.1:8000/ .
