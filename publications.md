@@ -8,6 +8,11 @@ title: Publications
 + @sac2019
 + @jimaging5010007
 
+### To Appear
+
++ @deMuijnckHughes2019ecoop
++ @deMuijnckHughes2019places
+
 ## 2018
 
 + @Toninho:2018:ISL:3292525.3242173
