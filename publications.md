@@ -4,6 +4,7 @@ title: Publications
 
 ## 2019
 
++ @deMuijnckHughes2019places
 + @popl2019
 + @sac2019
 + @jimaging5010007
@@ -11,7 +12,7 @@ title: Publications
 ### To Appear
 
 + @deMuijnckHughes2019ecoop
-+ @deMuijnckHughes2019places
+
 
 ## 2018
 
