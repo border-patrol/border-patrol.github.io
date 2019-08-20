@@ -4,6 +4,12 @@ title: Publications
 
 ## 2019
 
++ @10.1007/978-3-030-29400-7_14
++ @KOUZAPAS2019
++ @DBLP:journals/pacmpl/CastroHJNY19
++ @DBLP:journals/pacmpl/CastellanY19
++ @DBLP:conf/scala/ScalasYB19
++ @DBLP:conf/cav/LangeY19
 + @deMuijnckHughes2019ecoop
 + @deMuijnckHughes2019ecoopae
 + @deMuijnckHughes2019places
