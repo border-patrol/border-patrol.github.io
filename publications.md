@@ -4,6 +4,7 @@ title: Publications
 
 ## 2019
 
++ @deMuijnckHughes2019sfmoves
 + @10.1007/978-3-030-29400-7_14
 + @KOUZAPAS2019
 + @DBLP:journals/pacmpl/CastroHJNY19
