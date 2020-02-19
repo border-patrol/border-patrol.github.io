@@ -2,8 +2,24 @@
 title: Publications
 ...
 
+## 2020
+
++ @arc2020
++ @ppopp2020
+
 ## 2019
 
++ @DBLP:journals/jlp/GraversenPY19
++ @DBLP:journals/jlp/GhilezanJPSY19
++ @DBLP:conf/birthday/ToninhoY19
++ @DBLP:conf/birthday/NeykovaY19
++ @DBLP:conf/concur/BravettiCLYZ19
++ @DBLP:conf/ecoop/MajumdarPYZ19
++ @DBLP:conf/esop/BocchiMVY19
++ @DBLP:conf/fossacs/CastellanY19
++ @DBLP:conf/pldi/ScalasYB19
++ @DBLP:journals/corr/abs-1904-01283
++ @DBLP:journals/corr/abs-1904-01287
 + @jsa2019
 + @deMuijnckHughes2019sfmoves
 + @10.1007/978-3-030-29400-7_14
