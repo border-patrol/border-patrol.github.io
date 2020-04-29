@@ -4,8 +4,8 @@ title: Publications
 
 ## 2020
 
-+ @arc2020
-+ @ppopp2020
++ @DBLP:conf/arc/BacchusSK20
++ @DBLP:conf/ppopp/ArchibaldMST20
 
 ## 2019
 
