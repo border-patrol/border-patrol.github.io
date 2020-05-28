@@ -1,5 +1,7 @@
-resolver: lts-8.04
 flags: {}
 packages:
 - '.'
-extra-deps: []
+extra-deps:
+  - hakyll-4.13.3.0
+resolver: lts-15.11
+system-ghc: true

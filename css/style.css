@@ -28,6 +28,35 @@ article {
     background-color: #ffffff;
 }
 
+blockquote {
+    font-size: 90%;
+    font-style: italic;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left-style: solid;
+    border-left-width: thick;
+    border-left-color: grey;
+    padding-left: 10px;
+}
+
+.container p {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.well > .mdata {
+    padding: 0.25rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: smaller;
+}
+
+.well p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+
 /* ------------------------------------------------------------ [ Container ] */
 
 .vcenter {
