@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>Mapping dataflow programs to FPGAs</title>
+
+    </head>
+  <body>
+        <div class="container">
+          <img class="center" src="../images/logo-border-patrol-w-strap-line.png" alt="Border Patrol logo, a Border Collie" "Border Patrol" width="70%" />
+        </div>
+      <header class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <nav role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">Home</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-collapse">
+              <ul class="nav navbar-nav pull-right">
+                <li> <a href="../about.html">The Idea</a></li>
+                <li> <a href="../people.html">People</a></li>
+                <li> <a href="../partners.html">Partners</a></li>
+                <li> <a href="../publications.html">Publications</a></li>
+                <li> <a href="../software.html">Software</a></li>
+                <li> <a href="../contact.html">Contact</a></li>
+                <li> <a href="../posts.html">Archive</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="container">
+        <h1>Mapping dataflow programs to FPGAs</h1>
+        <div class="wrapper">
+  <div class="well mdata">
+<p>
+Posted on June 26, 2017
+
+<p>
+<p>
+
+  Categories: <a title="All pages tagged 'fpga'." href="../tags/fpga.html">fpga</a>, <a title="All pages tagged 'dataflow'." href="../tags/dataflow.html">dataflow</a>, <a title="All pages tagged 'talks'." href="../tags/talks.html">talks</a>
+
+</p>
+  </div>
+<p>Rob gave a talk on mapping dataflow programs to FPGAs at the Scottish Programming Language Seminar series at the University of the West of Scotland.</p>
+<blockquote>
+<p>FPGAs are unlike fixed, conventional processor architectures. FPGAs are programmable, meaning that logic gates and special purpose hardware blocks can be configured to precisely meet the needs of algorithms. Dataflow languages map naturally to the distributed hardware layout on FPGA fabric, and offer a high level programming abstraction to design FPGA accelerators.</p>
+<p>This talk will cover dataflow language models, from synchronous actors supporting signal processing, to asynchronous FSM actors supporting complex non-trivial algorithms. I will demonstrate how a hardware cost modeller is used in conjunction with a graphical program refactoring tool we have developed, to trade off throughput time with space. Our Petri Net dataflow abstraction aids parallelism discovery of stateful actors, to increase the generality of the program transformations. I will briefly present our image processing DSL, showing how the Dataflow Process Network model is an effective intermediary between higher order algorithm skeletons and FPGAs.</p>
+</blockquote>
+</div>
+
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          Border Patrol is <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/N028201/1">funded by EPSRC</a> as part of the <a href="https://www.epsrc.ac.uk/funding/calls/trustidentityprivacysecurity/">TIPS (Trust, Identity, Privacy and Security in the Digital Economy)</a> Call.
+        </div>
+      </footer>
+   <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+</html>

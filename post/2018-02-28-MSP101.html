@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>A Type-System for describing the Structural Topology of System-on-a-Chip Architectures.</title>
+
+    </head>
+  <body>
+        <div class="container">
+          <img class="center" src="../images/logo-border-patrol-w-strap-line.png" alt="Border Patrol logo, a Border Collie" "Border Patrol" width="70%" />
+        </div>
+      <header class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <nav role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">Home</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-collapse">
+              <ul class="nav navbar-nav pull-right">
+                <li> <a href="../about.html">The Idea</a></li>
+                <li> <a href="../people.html">People</a></li>
+                <li> <a href="../partners.html">Partners</a></li>
+                <li> <a href="../publications.html">Publications</a></li>
+                <li> <a href="../software.html">Software</a></li>
+                <li> <a href="../contact.html">Contact</a></li>
+                <li> <a href="../posts.html">Archive</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="container">
+        <h1>A Type-System for describing the Structural Topology of System-on-a-Chip Architectures.</h1>
+        <div class="wrapper">
+  <div class="well mdata">
+<p>
+Posted on February 28, 2018
+
+<p>
+<p>
+
+  Categories: <a title="All pages tagged 'idris'." href="../tags/idris.html">idris</a>, <a title="All pages tagged 'soc'." href="../tags/soc.html">soc</a>, <a title="All pages tagged 'hardware'." href="../tags/hardware.html">hardware</a>, <a title="All pages tagged 'linear-types'." href="../tags/linear-types.html">linear-types</a>, <a title="All pages tagged 'dependent-types'." href="../tags/dependent-types.html">dependent-types</a>, <a title="All pages tagged 'border-patrol'." href="../tags/border-patrol.html">border-patrol</a>, <a title="All pages tagged 'tdd'." href="../tags/tdd.html">tdd</a>, <a title="All pages tagged 'msp101'." href="../tags/msp101.html">msp101</a>, <a title="All pages tagged 'glasgow'." href="../tags/glasgow.html">glasgow</a>, <a title="All pages tagged 'talks'." href="../tags/talks.html">talks</a>
+
+</p>
+  </div>
+<p>In February, Jan gave a talk his work on the <a href="https://border-patrol.github.io">Border Patrol</a> at the University of Strathclyde’s, School of Computing and Information Sciences <a href="http://msp.cis.strath.ac.uk/">MSP 101</a>.</p>
+<blockquote>
+<p>The protocols that describe the interactions between IP Cores on System-on-a-Chip architectures are well-documented. These protocols described not only the structural properties of the physical interfaces but also the behaviour of the emanating signals. However, there is a disconnect between the design of SoC architectures, their formal description, and the verification of their implementation in known hardware description languages.</p>
+<p>Within the Border Patrol project we are investigating how to capture and reason about the structural and behavioural properties of SoC architectures using state-of-the-art advances in programming language research. Namely, we are investigating using dependent types and session types for the description of hardware communication.</p>
+<p>In this talk I will discuss my work in designing a linked family of languages that captures and reasons about the topological structure of a System-on-a-Chip. These languages provide correct-by-construction guarantees over the interaction protocols themselves; the adherence of a component that connects using said protocols; and the validity of the specified connections. These guarantees are provided through abuse of indexed monads to reason about resource usage; and general (ab)use of dependent types as presented in Idris.</p>
+<p>I will not cover all aspects of the languages but will concentrate my talk detailing the underlying theories that facilitate the correct-by-construction guarantees.</p>
+</blockquote>
+<p>Slides are not available.</p>
+</div>
+
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          Border Patrol is <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/N028201/1">funded by EPSRC</a> as part of the <a href="https://www.epsrc.ac.uk/funding/calls/trustidentityprivacysecurity/">TIPS (Trust, Identity, Privacy and Security in the Digital Economy)</a> Call.
+        </div>
+      </footer>
+   <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+</html>

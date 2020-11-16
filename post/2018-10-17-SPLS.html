@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>Type-Driven Development of SoC Architectures.</title>
+
+    </head>
+  <body>
+        <div class="container">
+          <img class="center" src="../images/logo-border-patrol-w-strap-line.png" alt="Border Patrol logo, a Border Collie" "Border Patrol" width="70%" />
+        </div>
+      <header class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <nav role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">Home</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-collapse">
+              <ul class="nav navbar-nav pull-right">
+                <li> <a href="../about.html">The Idea</a></li>
+                <li> <a href="../people.html">People</a></li>
+                <li> <a href="../partners.html">Partners</a></li>
+                <li> <a href="../publications.html">Publications</a></li>
+                <li> <a href="../software.html">Software</a></li>
+                <li> <a href="../contact.html">Contact</a></li>
+                <li> <a href="../posts.html">Archive</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="container">
+        <h1>Type-Driven Development of SoC Architectures.</h1>
+        <div class="wrapper">
+  <div class="well mdata">
+<p>
+Posted on October 17, 2018
+
+<p>
+<p>
+
+  Categories: <a title="All pages tagged 'idris'." href="../tags/idris.html">idris</a>, <a title="All pages tagged 'soc'." href="../tags/soc.html">soc</a>, <a title="All pages tagged 'hardware'." href="../tags/hardware.html">hardware</a>, <a title="All pages tagged 'substructural-type-systems'." href="../tags/substructural-type-systems.html">substructural-type-systems</a>, <a title="All pages tagged 'dependent-types'." href="../tags/dependent-types.html">dependent-types</a>, <a title="All pages tagged 'glasgow'." href="../tags/glasgow.html">glasgow</a>, <a title="All pages tagged 'tdd'." href="../tags/tdd.html">tdd</a>, <a title="All pages tagged 'spls'." href="../tags/spls.html">spls</a>
+
+</p>
+  </div>
+<p>Jan gave a talk about his work at <a href="https://msp-strath.github.io/spls-18/">SPLS Oct ’18</a> at the <a href="https://www.strath.ac.uk/">University of Strathclyde</a>. This event is being hosted by the <a href="http://msp.cis.strath.ac.uk/">MSP Group</a> of the <a href="http://www.cis.strath.ac.uk/">School of Computer and Information Sciences</a>.</p>
+<p>This talk extends upon early talks given to the MSP, FP-StAnd, and PL Interest groups, with an even more complete picture of the language and how it is used. Sadly, this talk won’t be <em>Chalk&amp;Talk</em>, and a more conventional slidedeck will be used.</p>
+<blockquote>
+<p>The protocols that describe the interactions between IP Cores on System-on-a-Chip (SoC) architectures are well-documented, describing not only the structural properties of the physical interfaces but also the behaviour of the emanating signals. However, there is a disconnect between the design of SoC architectures, their formal description, and the verification of their implementation in known hardware description languages.</p>
+<p>Within the Border Patrol project we are investigating how to model the structural and behavioural properties of SoC architectures using state-of-the-art advances in programming language research. Namely, we are investigating how dependent types and session types can be leveraged to model hardware communication at design and runtime.</p>
+<p>In this talk I will discuss my work in designing a modelling language with a substructural type-system that reasons about the structure of SoC Architectures. This language provide correct-by-construction guarantees over:</p>
+<ul>
+<li>the physical structure of an interaction protocol;</li>
+<li>the adherence of a component’s interface to a given protocol; and</li>
+<li>the validity of the connections made between components.</li>
+</ul>
+<p>We provide these guarantees by: (ab)using dependent types as presented within Idris; using novel ideas from programming language design such as Session Types and Thinnings; and incorporating novel ideas to reason about effectful programs, namely Hoare Monads and Resource-Dependent Algebraic Effects.</p>
+</blockquote>
+<p>Slides are not available.</p>
+</div>
+
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          Border Patrol is <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/N028201/1">funded by EPSRC</a> as part of the <a href="https://www.epsrc.ac.uk/funding/calls/trustidentityprivacysecurity/">TIPS (Trust, Identity, Privacy and Security in the Digital Economy)</a> Call.
+        </div>
+      </footer>
+   <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
