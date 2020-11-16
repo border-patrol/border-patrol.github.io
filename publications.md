@@ -4,6 +4,8 @@ title: Publications
 
 ## 2020
 
++ [@DBLP:conf/ecoop/Muijnck-HughesB19]
++ [@DBLP:journals/darts/Muijnck-HughesB20]
 + [@ijcnn2020]
 + [@DBLP:conf/arc/BacchusSK20]
 + [@DBLP:conf/ppopp/ArchibaldMST20]
